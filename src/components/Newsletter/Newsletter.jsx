@@ -2,11 +2,6 @@ import React from "react";
 
 import "./Newsletter.scss";
 
-function myFunc() {
-  document.getElementById("news").style.display = "block";
-  document.getElementById("success").style.display = "none";
-}
-
 class Newsletter extends React.Component {
   constructor(props) {
     super(props);
