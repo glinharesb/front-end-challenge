@@ -49,6 +49,11 @@
     margin-top: 10px;
 
     cursor: pointer;
+    transition: 0.6s;
+  }
+
+  button:hover {
+    background-color: #333333;
   }
 
   #success {

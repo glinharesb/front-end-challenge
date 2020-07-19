@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 import Banner from "../../images/banner.png";
-import Black from "../../images/black.svg";
 
 class Hero extends React.Component {
   render() {
@@ -19,18 +18,21 @@ class Hero extends React.Component {
         <Slider {...settings}>
           <div>
             <div className="container">
-              <p className="text">Olá, o que você está buscando?</p>
+              <div className="text">
+                <p>Olá, o que você está buscando?</p>
+                <h1>Criar ou migrar seu e-commerce</h1>
+              </div>
             </div>
-            <img src={Banner} />
+            <img src={Banner} className="banner" alt="" />
           </div>
           <div>
-            <img src={Banner} />
+            <img src={Banner} alt="" />
           </div>
           <div>
-            <img src={Banner} />
+            <img src={Banner} alt="" />
           </div>
           <div>
-            <img src={Banner} />
+            <img src={Banner} alt="" />
           </div>
         </Slider>
       </div>
