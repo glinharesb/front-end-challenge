@@ -9,11 +9,15 @@
     margin: 0;
   }
 
-  input[type="text"] {
+  input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
     font-family: "Lato", sans-serif;
     color: #585858;
     font-weight: bold;
-    font-size: 12px;
+    font-size: inherit;
     line-height: 14px;
     background-color: #fff;
     box-sizing: border-box;
@@ -25,7 +29,7 @@
     border: 1px solid #fff;
   }
 
-  input[type="text"]:focus {
+  input:focus {
     border: 1px solid #bdbdbd;
   }
 
@@ -43,6 +47,13 @@
 
     border-radius: 5px;
     margin-top: 10px;
+
+    cursor: pointer;
+  }
+
+  #success {
+    display: none;
+    text-align: center;
   }
 
   .row {
@@ -68,10 +79,17 @@
       width: 140px;
       height: 50px;
     }
-    input[type="text"] {
+    input {
       margin: 0 8px;
       width: 280px;
       height: 50px;
+    }
+
+    #success {
+      button {
+        margin-top: 15px;
+        width: 320px;
+      }
     }
   }
 }

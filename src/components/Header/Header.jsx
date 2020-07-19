@@ -10,30 +10,31 @@ import User from "../../images/user.svg";
 class Header extends React.Component {
   render() {
     return (
-    <div className="Header">
-      <div className="row">
-        <div className="nav">
-          <img src={Nav} alt="" />
-        </div>
-        <div className="logo">
-          <img src={Logo} alt="" />
-        </div>
-        <div className="cart">
-          <div className="myaccount">
-            <img src={User} alt="" />
-            <span>Minha Conta</span>
+      <div className="Header">
+        <div className="row">
+          <div className="nav">
+            <img src={Nav} alt="" />
           </div>
-          <img src={Cart} alt="" />
-          <span id="clicks" className="items">
-            {window.localStorage.getItem("cart")}
-          </span>
-        </div>
-        <div className="search">
-          <input type="text" placeholder="O que está procurando?" />
+          <div className="logo">
+            <img src={Logo} alt="" />
+          </div>
+          <div className="cart">
+            <div className="myaccount">
+              <img src={User} alt="" />
+              <span>Minha Conta</span>
+            </div>
+            <img src={Cart} alt="" />
+            <span id="clicks" className="items">
+              {window.localStorage.getItem("cart")}
+            </span>
+          </div>
+          <div className="search">
+            <input type="text" placeholder="O que está procurando?" />
+          </div>
         </div>
       </div>
-    </div>
-  )}
+    );
+  }
 }
 
 export default Header;

@@ -14,24 +14,28 @@ class Hero extends React.Component {
       dots: true,
       arrows: false,
     };
-  return (
-    <div className="Hero">
-      <Slider {...settings}>
-        <div>
-          <img src={Banner} />
-        </div>
-        <div>
-          <img src={Banner} />
-        </div>
-        <div>
-          <img src={Banner} />
-        </div>
-        <div>
-          <img src={Banner} />
-        </div>
-      </Slider>
-    </div>
-  )}
+    return (
+      <div className="Hero">
+        <Slider {...settings}>
+          <div>
+            <div className="container">
+              <p className="text">Olá, o que você está buscando?</p>
+            </div>
+            <img src={Banner} />
+          </div>
+          <div>
+            <img src={Banner} />
+          </div>
+          <div>
+            <img src={Banner} />
+          </div>
+          <div>
+            <img src={Banner} />
+          </div>
+        </Slider>
+      </div>
+    );
+  }
 }
 
 export default Hero;

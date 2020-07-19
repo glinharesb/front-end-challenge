@@ -5,12 +5,12 @@
   }
 
   .text {
-    color: blue;
-    //position: absolute;
-    padding: 32px 20px 28px;
+    position: absolute;
+    color: white;
 
-    position: relative;
-    width: 100%; /* for IE 6 */
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
   }
 
   .slick-dots {
@@ -43,6 +43,13 @@
   @media (min-width: 767px) {
     img {
       height: 430px;
+    }
+
+    .text {
+      padding-top: 150px;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 41px;
     }
 
     .slick-dots li {
