@@ -1,0 +1,23 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 5px 15px;
+}
+
+/* desktop */
+@media (min-width: 767px) {
+}
