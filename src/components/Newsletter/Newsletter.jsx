@@ -2,7 +2,8 @@ import React from "react";
 
 import "./Newsletter.scss";
 
-export default () => {
+class Newsletter extends React.Component {
+  render() {
   return (
     <div className="Newsletter">
       <div className="container">
@@ -20,5 +21,7 @@ export default () => {
         </div>
       </div>
     </div>
-  );
-};
+  )}
+}
+
+export default Newsletter;

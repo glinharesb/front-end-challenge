@@ -8,11 +8,12 @@ import Slider from "react-slick";
 import Banner from "../../images/banner.png";
 import Black from "../../images/black.svg";
 
-export default () => {
-  var settings = {
-    dots: true,
-    arrows: false,
-  };
+class Hero extends React.Component {
+  render() {
+    var settings = {
+      dots: true,
+      arrows: false,
+    };
   return (
     <div className="Hero">
       <Slider {...settings}>
@@ -30,5 +31,7 @@ export default () => {
         </div>
       </Slider>
     </div>
-  );
-};
+  )}
+}
+
+export default Hero;

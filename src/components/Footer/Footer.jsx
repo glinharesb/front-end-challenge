@@ -6,8 +6,9 @@ import Vtex from "../../images/footer-vtex.svg";
 import Headset from "../../images/headset.svg";
 import Envelope from "../../images/envelope.svg";
 
-export default () => {
-  return (
+class Footer extends React.Component {
+  render() {
+    return (
     <div className="Footer">
       <div className="row container">
         <div>
@@ -35,19 +36,17 @@ export default () => {
           <div className="row">
             <div>
               <p>Created By</p>
-              <div>
-                <img src={Corebiz} alt="" />
-              </div>
+              <img src={Corebiz} alt="" />
             </div>
             <div>
               <p>Powered By</p>
-              <div>
-                <img src={Vtex} alt="" />
-              </div>
+              <img src={Vtex} alt="" />
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )}
+}
+
+export default Footer;

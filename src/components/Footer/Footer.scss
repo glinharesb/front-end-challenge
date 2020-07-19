@@ -75,5 +75,14 @@
       grid-template-columns: 33% 33% 33%;
       align-items: center;
     }
+
+    .copyright {
+      .row {
+        justify-content: right;
+      }
+      div {
+        margin: 0 12px;
+      }
+    }
   }
 }
