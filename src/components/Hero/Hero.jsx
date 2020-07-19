@@ -16,7 +16,7 @@ class Hero extends React.Component {
     return (
       <div className="Hero">
         <Slider {...settings}>
-          <div>
+          <div className="height">
             <div className="container">
               <div className="text">
                 <p>Olá, o que você está buscando?</p>
@@ -26,13 +26,13 @@ class Hero extends React.Component {
             <img src={Banner} className="banner" alt="" />
           </div>
           <div>
-            <img src={Banner} alt="" />
+            <img src={Banner} className="banner" alt="" />
           </div>
           <div>
-            <img src={Banner} alt="" />
+            <img src={Banner} className="banner" alt="" />
           </div>
           <div>
-            <img src={Banner} alt="" />
+            <img src={Banner} className="banner" alt="" />
           </div>
         </Slider>
       </div>

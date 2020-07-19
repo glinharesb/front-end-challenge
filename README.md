@@ -26,9 +26,13 @@ yarn start
 
 ### O que falta (ou precisa ser melhorado)
 
-- barra de busca não está totalmente responsiva
+- na versão mobile fica uma margin/padding do lado direito
 - hero (full banner) não está totalmente responsivo
+- estelas dos produtos
+- parcelamento nos produtos
 - formulário sem validação completa
+- botão para cadastrar novo e-mail não retorna
+- contagem de produtos não está responsiva
 - otimização do CSS
 - melhoria nas tags (remover alguns cabeçalhos para não prejudicar o SEO)
 - design pattern

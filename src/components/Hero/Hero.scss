@@ -57,6 +57,11 @@
 
   /* desktop */
   @media (min-width: 767px) {
+    background-color: black;
+    .height {
+      height: 430px;
+    }
+
     img {
       height: 430px;
     }

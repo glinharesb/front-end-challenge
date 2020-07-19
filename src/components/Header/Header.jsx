@@ -4,7 +4,6 @@ import "./Header.scss";
 import Logo from "../../images/logo-black.svg";
 import Nav from "../../images/nav.svg";
 import Cart from "../../images/cart.svg";
-import Search from "../../images/search.svg";
 import User from "../../images/user.svg";
 
 class Header extends React.Component {
