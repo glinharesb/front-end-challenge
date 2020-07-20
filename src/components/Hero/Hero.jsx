@@ -20,7 +20,7 @@ class Hero extends React.Component {
             <div className="container">
               <div className="text">
                 <p>Olá, o que você está buscando?</p>
-                <h1>Criar ou migrar seu e-commerce</h1>
+                <h1>Criar ou migrar seu e-commerce?</h1>
               </div>
             </div>
             <img src={Banner} className="banner" alt="" />

@@ -23,13 +23,15 @@ yarn start
 - create-react-app (react, webpack, babel, eslint, etc)
 - node-sass (CSS)
 - prettier (identação dos códigos)
+- react-slick (carousel)
 
 ### O que falta (ou precisa ser melhorado)
 
 - na versão mobile fica uma margin/padding do lado direito
 - hero (full banner) não está totalmente responsivo
-- estelas dos produtos
+- estelas nos produtos
 - parcelamento nos produtos
+- arrows na versão desktp (carousel)
 - formulário sem validação completa
 - botão para cadastrar novo e-mail não retorna
 - contagem de produtos não está responsiva
@@ -39,4 +41,5 @@ yarn start
 
 ### Comandos úteis
 
-- npx prettier --write . (identa todos os arquivos do projeto)
+Identa todos os arquivos do projeto
+- npx prettier --write .
